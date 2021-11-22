@@ -1,9 +1,13 @@
 import Home from './Home';
+import TimeLine from './TimeLine';
 import '../styles/App.css'
 
 function App() {
   return (
-    <Home/>
+    <div class="frame-app">
+      <Home/>
+      <TimeLine/>
+    </div>
   );
 }
 

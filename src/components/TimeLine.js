@@ -1,23 +1,13 @@
-import { useState } from 'react'
+import '../styles/TimeLine.css'
+import MenuTime from './MenuTime'
 
-const monsteraPrice = 8
+function TimeLine() {
 
-function Cart() {
-
-    const [cart, updateCart] = useState(1)
     return (
-        <div className='lmj-cart'>
-            <h2>Panier</h2>
-            <div>
-                Monstera : {monsteraPrice}€
-                <button onClick={() => updateCart(cart + 1)}>
-                    Ajouter
-                </button>
-            </div>
-            <h3>Total : {monsteraPrice * cart}€</h3>
-        </div>
+      <div class="frame">
+          <MenuTime/>
+      </div>
     )
 }
   
-export default Cart;
-  
+export default TimeLine;
