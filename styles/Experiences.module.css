@@ -1,0 +1,127 @@
+.container {
+    background-color: #01132E;
+    color: white;
+    width: 100vw;
+    height:100vh;
+    top:0px;
+    position:absolute;
+    overflow: hidden;
+}
+
+
+.inner{
+    height: 80vh;
+    display: inline;
+}
+
+.leftSide {
+    position: absolute;
+    font-size: 3vh;
+    padding: 5vh 0 10vh 100px;
+    text-align: center;
+    top:0;
+    left:0;
+    right:50vw;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.rightSide {
+    background-color: #386DBC;
+    border-radius: 50%;
+    width:55vw;
+    top:-30vh;
+    right:-10vw;
+    bottom:-30vh;
+    height:160vh;
+    position:absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10vw 15vw 10vw 5vw;
+    box-shadow: inset 0px 4px 40px 20px rgba(0, 0, 0, 0.25);
+}
+
+.flexframe{
+    height: 80px;
+    width:50vw;
+    padding:0;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
+
+.boxArrow {
+    position:relative;
+    margin: 10px;
+    display: inline;
+    height: 80px;
+    width:33px;
+    text-align: center;
+}
+
+.arrow {
+    margin:auto;
+    display: block;
+    background-color: white;
+    border-radius: 6px;
+    width:6px;
+    height:40px;
+    position:relative;
+}
+
+.LarrowU {
+    transform: rotate(45deg);
+    top:8px;
+}
+.LarrowD {
+    transform: rotate(-45deg);
+    bottom:8px;
+}
+.RarrowU {
+    transform: rotate(-45deg);
+    top:8px;
+}
+.RarrowD {
+    transform: rotate(45deg);
+    bottom:8px;
+}
+
+.dotbox{
+    text-align: center;
+    margin:10px;
+    height:30px;
+    width:30px;
+}
+
+.dot{
+    border-radius: 50px;
+    background-color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position:relative;
+}
+
+.off{
+    width:10px;
+    height:10px;
+}
+
+.on{
+    width:30px;
+    height:30px;
+}
+
+.imgWrapper{
+    margin: 50px;
+    display: block;
+    height: fit-content;
+    width: 100%;
+    top:50%;
+}
