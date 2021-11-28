@@ -45,7 +45,7 @@ export default function About(){
                     <a className={styles.CV} href="MyCV.pdf" download="CV Alexandre Dorcival" target="_blank">
                         <Image 
                         className={styles.imgCV}
-                        src="/../public/MyCV.png" 
+                        src={require("../public/MyCV.png")} 
                         height={300}
                         width={200}
                         alt="My CV"/>
