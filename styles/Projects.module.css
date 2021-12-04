@@ -2,5 +2,19 @@
     top: -10vh;
     left:-30vw;
     right:-30vw;
-    height:20vh;
+    height:30vh;
+    position:fixed;
+    padding: 10vh 50vw  0 50vw;
+    color:white;
+    background-color: #386DBC;
+    border-radius: 50%;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.363);
+}
+.flexWrapper{
+    margin-top: 22vh;
+    margin-bottom: 5vh;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
 }

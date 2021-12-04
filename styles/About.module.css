@@ -64,11 +64,11 @@
     display: flex;
     justify-content: space-around;
     width:40vw;
+    height: 200px;
+    align-items: center;
 }
 
 .link{
     display: inline-block;
-    width: 100px;
-    height: 100px;
-    font-size: 40px;
+
 }
