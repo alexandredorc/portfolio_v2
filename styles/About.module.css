@@ -34,6 +34,8 @@
     font-size:3vh;
 }
 
+
+
 .rightSide {
     position: absolute;
     padding: 5vh 100px 10vh 0;
@@ -70,5 +72,9 @@
 
 .link{
     display: inline-block;
-    font-size: 60px;
+    cursor: pointer;
+}
+
+.contact{
+    cursor:pointer;
 }

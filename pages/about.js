@@ -7,6 +7,7 @@ import {useState} from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
 import { faPhoneAlt, faPaperPlane } from '@fortawesome/free-solid-svg-icons'
+import parse from 'html-react-parser';
 
 export default function About(){
     const [contact, changeData] = useState("");
@@ -24,15 +25,16 @@ export default function About(){
                             ABOUT ME
                         </h2>
                         <div>
-                        <p>
-                        I am a fourth year student in IMT Nord Europe engineering school. </p>
-                        <p>
-                        My major is in computer science and I want to specialise in data science.
-                        I love sciences and technologies.</p>
-                        <p>
-                        You can find my projects <a><u>here</u></a></p>
-                        <p>
-                        My main hobbies are cinema and winter sports.</p>
+                            <p>
+                            I am a fourth year student in IMT Nord Europe engineering school. </p>
+                            <p>
+                            My major is in computer science and I want to specialise in data science.
+                            I love sciences and technologies.</p>
+                            <p>
+                            You can find my projects <a href="projects"><u>here</u></a></p>
+                            <p>
+                            My main hobbies are cinema and winter sports.
+                            </p>
                         </div>
                         
                         
@@ -52,21 +54,18 @@ export default function About(){
                     </a>
                     
                     <div className={styles.linkFrame}>
-                        <a>
-                            <FontAwesomeIcon icon={faGithub} className={styles.link} onClick={() => changeData("github.com/alexandredorc")}/>
-                        </a>
-                        <a>
-                            <FontAwesomeIcon icon={faLinkedinIn} className={styles.link} onClick={() => changeData("linkedin.com/in/alexandre-dorcival-48a7a21a1")}/>
-                        </a>
-                        <a>
-                            <FontAwesomeIcon icon={faPhoneAlt} className={styles.link} onClick={() => changeData("+33 0685184961")}/>
-                        </a>
-                        <a>
-                            <FontAwesomeIcon icon={faPaperPlane} className={styles.link} onClick={() => changeData("ddorcival@gmail.com")}/>
-                        </a>
+                       
+                        <FontAwesomeIcon icon={faGithub} size="2x" className={styles.link} onClick={() => changeData("<a href=\"http://github.com/alexandredorc\"><u>github.com/alexandredorc</u></a>")}/>
+                
+                        <FontAwesomeIcon icon={faLinkedinIn} size="2x" className={styles.link} onClick={() => changeData("<a href=\"http://linkedin.com/in/alexandre-dorcival-48a7a21a1\"><u>linkedin.com/in/alexandre-dorcival-48a7a21a1</u></a>")}/>
+                    
+                        <FontAwesomeIcon icon={faPhoneAlt} size="2x" className={styles.link} onClick={() => changeData("+33 0685184961")}/>
+                    
+                        <FontAwesomeIcon icon={faPaperPlane} size="2x" className={styles.link} onClick={() => changeData("ddorcival@gmail.com")}/>
+          
                     </div>
-                    <div>
-                        {contact}
+                    <div className={styles.contact}>
+                        {parse(contact)}
                     </div>
                 </div>
             </main>
