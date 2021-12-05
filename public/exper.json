@@ -23,9 +23,30 @@
         },
         {
             "id":3,
+            "title":"CAE diploma",
+            "image":"CAE",
+            "text":"<p>In 2017, I have passed the Cambridge Avdance Exam (CAE), which give me a C1 level in English</p>",
+            "link":"https://www.cambridgeenglish.org/exams-and-tests/advanced/"
+        },
+        {
+            "id":4,
+            "title":"TOEIC Exam",
+            "image":"TOEIC",
+            "text":"<p>In 2021 I have passed the exam TOEIC with the score 985/990, which gives me a level C1 in English</p>",
+            "link":"https://www.etsglobal.org/fr/en/programme/toeic-tests"
+        },
+        {
+            "id":5,
+            "title":"HSK2 diploma",
+            "image":"HSK",
+            "text":"<p>In 2016 I have passed the exam HSK2, which gives me a level B2 in Chinese</p>",
+            "link":"https://www.afpc.asso.fr/Presentation-HSK"
+        },
+        {
+            "id":6,
             "title":"Linguistic trip in Australia",
             "image":"matthew",
-            "text":"<p>From June to August 2016, I have stayed in Australia where I lived for 2 months in an australian family.<p/>I went to the Matthew Findler anglican school during half of this trip<p></p>",
+            "text":"<p>From June to August 2016, I have stayed in Australia where I lived for 2 months in an australian family.<p/>I went to the Matthew Findler anglican school during half of this trip</p>",
             "link":"https://www.mfac.edu.au"
         }
     ]

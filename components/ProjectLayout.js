@@ -13,7 +13,7 @@ function ProjectLayout(props){
                     {data.date}
                 </div>
             </div>
-            <div className={styles.boxBody}>
+            <a className={styles.boxBody} href={data.link}>
                 <div className={styles.imgBox}>
                     <Image
                     src={require("../public/images/"+data.image+".png")} 
@@ -24,7 +24,7 @@ function ProjectLayout(props){
                 <div className={styles.content}>
                     <p>{data.text}</p>
                 </div>
-            </div>
+            </a>
         </div>
     );
 }

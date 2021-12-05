@@ -25,6 +25,7 @@
     height:calc(100% - 55px);
     margin-top: 5px;
     position:relative;
+    display: block;
 }
 
 .imgBox{
