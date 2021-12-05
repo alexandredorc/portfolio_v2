@@ -4,49 +4,74 @@
             "id" : "1",
             "name": "LGDS",
             "link": "http",
-            "image": "",
-            "text": "",
-            "date" :""
+            "image": "blocksi",
+            "text": "Dans le cadre d'un projet d'étude nous avons réaliser une applications pour la coopérative Les Grains de sel, cette application permet de gerer les évenements qu'organise la coopérative, cete application utilise Django, et Odoo.",
+            "date" :"08/2020-03/2021"
         },
         {
             "id" : "2",
             "name": "Grapher",
             "link": "http",
-            "image": "",
-            "text": "",
-            "date" :""
+            "image": "blocksi",
+            "text": "Ce logiciel est un grapheur qui lis une fonction mathématique qui avec un interpréteur lexical et synthaxique affiche le graphe de la fonction, cette application utilise le C et OpenGL",
+            "date" :"08/2019"
         },
         {
             "id" : "3",
             "name": "Labyrinthe",
             "link": "http",
-            "image": "",
-            "text": "",
-            "date" :""
+            "image": "blocksi",
+            "text": "ce programme est l'adaptation en jeux vidéo du jeu de plateau Labyrinthe, ce jeu est afficher directement sur la console, ce jeu utilise le C",
+            "date" :"05/2021"
         },
         {
             "id" : "4",
             "name": "portfoliov1",
             "link": "http",
-            "image": "",
-            "text": "",
-            "date" :""
+            "image": "blocksi",
+            "text": "Cette application est la première version de mon portfolio, elle utilise Vue",
+            "date" :"04/2020"
         },
         {
             "id" : "5",
             "name": "portfoliov2",
             "link": "http",
-            "image": "",
-            "text": "",
-            "date" :""
+            "image": "blocksi",
+            "text": "This App is the portfolio That your on right now, it use React & Next",
+            "date" :"11/2021-12/2021"
         },
         {
             "id" : "6",
             "name": "PathFinder",
             "link": "http",
-            "image": "",
-            "text": "",
-            "date" :""
+            "image": "blocksi",
+            "text": "This software is a sandbox for the A* pathfinding algorithme, This software isusing Python & Pygame ",
+            "date" :"03/2021"
+        },
+        {
+            "id" : "7",
+            "name": "Image Similarity Search",
+            "link": "http",
+            "image": "blocksi",
+            "text": "This software is able to search in a data base the closest image from a query depending is color spectrum, it can do Brute search and also use different technique to speed up the process such as kd Trees and LSH, it use Python & MatplotLib",
+            "date" :"08/2021"
+        }
+        ,
+        {
+            "id" : "8",
+            "name": "Tetris Python remake",
+            "link": "http",
+            "image": "blocksi",
+            "text": "This Game is a remake of the famous tetris Game, it use Python & Pygame",
+            "date" :"06/2021"
+        },
+        {
+            "id" : "9",
+            "name": "prototype GPRD",
+            "link": "http",
+            "image": "asepta",
+            "text": "During my L3 internship in the laboratories Asepta I have developped a prototype of a DMS, it has many useful features for saving cosmetic and chemical recipe, it use PHP & MySQL ",
+            "date" :"06/2021"
         }
     ]
 }

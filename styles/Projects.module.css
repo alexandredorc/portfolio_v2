@@ -6,9 +6,10 @@
     position:fixed;
     padding: 10vh 50vw  0 50vw;
     color:white;
-    background-color: #386DBC;
+    background-color: #1B51A0;
     border-radius: 50%;
     box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.363);
+    z-index: 1;
 }
 .flexWrapper{
     margin-top: 22vh;

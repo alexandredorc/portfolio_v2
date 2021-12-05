@@ -7,9 +7,42 @@
     padding: 20px;
     box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.267);
 }
-.title {
-    color:white;
+.boxHead{
+    display: block;
 }
+
+.title {
+    color:black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
 .date{
     color:grey;
+}
+
+.boxBody{
+    height:calc(100% - 55px)
+}
+
+.img{
+    display: inline;
+    margin-top: 10px;
+    height: 100%;
+}
+.content{
+    background-color: rgba(255, 255, 255, 0);
+    color: rgba(255, 255, 255, 0);
+    overflow-y: scroll;
+    position:relative ;
+    top:-207px;
+    left:0;
+    height: 100%;
+    font-size:20px;
+}
+.content:hover{
+    background-color: rgba(255, 255, 255, 0.63);
+    color: black;
+    visibility: visible;
+    transition: 0.2s;
 }

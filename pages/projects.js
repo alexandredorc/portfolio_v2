@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div >
       <Head>
-        <title>My Portfoliof</title>
+        <title>My Projects</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
@@ -20,7 +20,7 @@ export default function Home() {
               {
                 data.projects.map(
                   (data)=>
-                      <ProjectLayout key={"project"+data.id} data={data}/>
+                      <ProjectLayout key={"project"+data.id} props={data}/>
                   )
               }
             </div>

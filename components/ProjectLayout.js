@@ -1,22 +1,27 @@
 import styles from '../styles/ProjectLayout.module.css'
+import Image from 'next/image'
 
-function ProjectLayout(data){
+function ProjectLayout(props){
+    const data=props.props;
     return(
         <div className={styles.container}>
-            <div>
+            <div className={styles.boxHead}>
                 <div className={styles.title}> 
                     {data.name}
                 </div>
                 <div className={styles.date}>
-
+                    {data.date}
                 </div>
             </div>
-            <div>
-                <div>
-
+            <div className={styles.boxBody}>
+                <div className={styles.img}>
+                    <Image
+                    src={require("../public/images/"+data.image+".png")} 
+                    alt={`image ${data.id}`}
+                    layout="responsive"/>
                 </div>
-                <div>
-
+                <div className={styles.content}>
+                    <p>{data.text}</p>
                 </div>
             </div>
         </div>
