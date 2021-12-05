@@ -3,3 +3,6 @@
     padding-top: 200px;
     height: 300vh;
 }
+.flexWrapper{
+    display: flex;
+}

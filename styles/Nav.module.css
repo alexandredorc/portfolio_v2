@@ -30,10 +30,10 @@
 .link{
     padding: 5px 10px;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .link:hover {
-    
     transition: 0.2s;
     background-color: white;
     

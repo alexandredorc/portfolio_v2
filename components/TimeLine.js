@@ -6,6 +6,9 @@ function TimeLine() {
     return (
       <div className={styles.frame}>
           <MenuTime/>
+          <div className={styles.flexWrapper}>
+
+          </div>
       </div>
     )
 }

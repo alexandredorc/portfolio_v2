@@ -14,11 +14,12 @@ function ProjectLayout(props){
                 </div>
             </div>
             <div className={styles.boxBody}>
-                <div className={styles.img}>
+                <div className={styles.imgBox}>
                     <Image
                     src={require("../public/images/"+data.image+".png")} 
                     alt={`image ${data.id}`}
-                    layout="responsive"/>
+                    className={styles.image}
+                    layout="fill"/>
                 </div>
                 <div className={styles.content}>
                     <p>{data.text}</p>

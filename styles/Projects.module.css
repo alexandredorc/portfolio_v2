@@ -13,7 +13,7 @@
 }
 .flexWrapper{
     margin-top: 22vh;
-    margin-bottom: 5vh;
+    margin-bottom: 0vh;
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;

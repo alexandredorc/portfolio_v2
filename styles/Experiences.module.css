@@ -63,6 +63,7 @@
     height: 80px;
     width:33px;
     text-align: center;
+    cursor: pointer;
 }
 
 .arrow {
@@ -106,6 +107,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     position:relative;
+    cursor: pointer;
 }
 
 .off{

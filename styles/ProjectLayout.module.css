@@ -22,27 +22,45 @@
 }
 
 .boxBody{
-    height:calc(100% - 55px)
+    height:calc(100% - 55px);
+    margin-top: 5px;
+    position:relative;
 }
 
-.img{
-    display: inline;
-    margin-top: 10px;
+.imgBox{
+    display: block;
+    margin-top: 15px;
     height: 100%;
 }
+
+.image{
+    height: calc(100% - 50px) !important;
+    object-fit: cover;
+    width: 100% !important;
+    position: relative !important;
+}
+
 .content{
     background-color: rgba(255, 255, 255, 0);
+    padding: 5px;
     color: rgba(255, 255, 255, 0);
     overflow-y: scroll;
-    position:relative ;
-    top:-207px;
+    position:absolute ;
+    top: 0;
     left:0;
     height: 100%;
     font-size:20px;
+    transition: 0.8s;
 }
+
+.content > p{
+    margin: 10px;
+}
+
 .content:hover{
-    background-color: rgba(255, 255, 255, 0.63);
+    background-color: rgba(255, 255, 255, 0.746);
     color: black;
     visibility: visible;
     transition: 0.2s;
+    cursor: pointer;
 }
