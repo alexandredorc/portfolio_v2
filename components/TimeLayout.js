@@ -1,10 +1,10 @@
 import styles from '../styles/TimeLayout.module.css'
 
-function TimeLayout() {
-
+function TimeLayout(props) {
+const data= props.props;
     return (
-      <div >
-         
+      <div>
+        
       </div>
     )
 }
