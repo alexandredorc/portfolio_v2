@@ -9,7 +9,6 @@ export default function Home() {
     <div >
       <Head>
         <title>My Projects</title>
-        <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
           <div className={styles.header}>
