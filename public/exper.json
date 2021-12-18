@@ -3,49 +3,49 @@
         {
             "id":0,
             "title":"Internship Laboratoires Adam, Asepta",
-            "image":"asepta",
+            "image":"asepta.png",
             "text":"<p>During this internship at \"Les laboratoires Adam\", my mission was to analyse an App called GPRD that was used as a data base for the R&D service.</p> <p> I have written situational analysis and I have developed a prototype of a new App in PHP and MySQL.</p> <p>You can learn more about this project <a href=\"https://github.com/alexandredorc/gprd-proto\"><u>here</u></a></p> ",
             "link":"https://asepta.com/le-laboratoire/"
         },
         {
             "id":1,
             "title":"Internship Blocksi SAS,",
-            "image":"blocksi",
+            "image":"blocksi.png",
             "text":"<p>During this internship at Blocksi SAS,my mission was to realize testing for differents features of the application. I also develpped a new feature for the Blocksi App using Javascript and NodeJS.</p> <p> Blocksi is a TechEd App that enable teachers to be able to fully control a classroom, This app also manage all the connexions from students computers and check for any inapropriate content</p>",
             "link":"https://blocksi.net/about-us.php"
         },
         {
             "id":2,
             "title":"Internship Exsymol SAM",
-            "image":"exsymol",
+            "image":"exsymol.svg",
             "text":"<p>During this internship at Exsymol, my mission was to develope new forms using Qualios a DMS that enable the users to easily save and exchange data. </p> <p>To code these form I used HTML/CSS and Javascript</p>",
             "link":"https://www.exsymol.com/fr/la-marque-exsymol/"
         },
         {
             "id":3,
             "title":"CAE diploma",
-            "image":"CAE",
+            "image":"CAE.png",
             "text":"<p>In 2017, I have passed the Cambridge Avdance Exam (CAE), which give me a C1 level in English</p>",
             "link":"https://www.cambridgeenglish.org/exams-and-tests/advanced/"
         },
         {
             "id":4,
             "title":"TOEIC Exam",
-            "image":"TOEIC",
+            "image":"TOEIC.png",
             "text":"<p>In 2021 I have passed the exam TOEIC with the score 985/990, which gives me a level C1 in English</p>",
             "link":"https://www.etsglobal.org/fr/en/programme/toeic-tests"
         },
         {
             "id":5,
             "title":"HSK2 diploma",
-            "image":"HSK",
+            "image":"HSK.png",
             "text":"<p>In 2016 I have passed the exam HSK2, which gives me a level B2 in Chinese</p>",
             "link":"https://www.afpc.asso.fr/Presentation-HSK"
         },
         {
             "id":6,
             "title":"Linguistic trip in Australia",
-            "image":"matthew",
+            "image":"matthew.png",
             "text":"<p>From June to August 2016, I have stayed in Australia where I lived for 2 months in an australian family.<p/>I went to the Matthew Findler anglican school during half of this trip</p>",
             "link":"https://www.mfac.edu.au"
         }

@@ -55,7 +55,7 @@ export default function Exper(){
                 <div className={styles.rightSide}>
                     <a href={data.experciences[active].link} className={styles.imgWrapper}>
                         <Image 
-                        src={require("../public/images/"+data.experciences[active].image+".png")} 
+                        src={require("../public/images/"+data.experciences[active].image)} 
                         alt={`image ${active}`}
                         layout="responsive" />   
                     </a>
