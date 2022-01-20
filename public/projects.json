@@ -1,6 +1,14 @@
 {
     "projects": [
         {
+            "id" : "0",
+            "name": "Project Robotic and computer vision",
+            "link": "https://github.com/alexandredorc/portfolio_v2",
+            "image": "kobuki",
+            "text": "The goal of the project is to make a kobuki robot autonomous using a LIDAR and to be able to detect some objects localisation depending on a 3D camera, to do so we used ROS framework and Pyhton inlcuding OpenCV and Scikit ",
+            "date" :"12/2021-01/2022"
+        },
+        {
             "id" : "1",
             "name": "Portfolio V2",
             "link": "https://github.com/alexandredorc/portfolio_v2",
@@ -13,7 +21,7 @@
             "name": "Portfolio V1",
             "link": "https://alexandredorc.github.io/portfolio_v1/#/",
             "image": "portfoliov1",
-            "text": "Cette application est la première version de mon portfolio, elle utilise Vue",
+            "text": "This web site is my first portfolio, it use VueJS",
             "date" :"04/2020"
         },
         {
@@ -45,7 +53,7 @@
             "name": "LGDS",
             "link": "https://github.com/alexandredorc/lesgrainsdesel",
             "image": "LGDS",
-            "text": "Dans le cadre d'un projet d'étude nous avons réaliser une applications pour la coopérative Les Grains de sel, cette application permet de gerer les évenements qu'organise la coopérative, cete application utilise Django, et Odoo.",
+            "text": "As part of a study project we have developed an application for the cooperative Les Grains de sel, this application allows to manage the events organized by the cooperative, this application uses Django, and Odoo.",
             "date" :"08/2020-03/2021"
         },
         {
@@ -61,7 +69,7 @@
             "name": "Labyrinthe",
             "link": "https://github.com/alexandredorc/Labyrinthe_Board",
             "image": "labyrinte",
-            "text": "this program is the video game adaptation of the board game Labyrinth, this game is displayed directly on the console, this game uses the C",
+            "text": "This program is the video game adaptation of the board game Labyrinth, this game is displayed directly on the console, this game uses the C",
             "date" :"05/2021"
         },
         {
