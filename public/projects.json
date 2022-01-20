@@ -27,7 +27,7 @@
         {
             "id" : "3",
             "name": "Image Similarity Search",
-            "link": "http",
+            "link": "https://github.com/alexandredorc/ImageSearchSimilar",
             "image": "imagesearch",
             "text": "This software is able to search in a data base the closest image from a query depending is color spectrum, it can do Brute search and also use different technique to speed up the process such as kd Trees and LSH, it use Python & MatplotLib",
             "date" :"08/2021"
